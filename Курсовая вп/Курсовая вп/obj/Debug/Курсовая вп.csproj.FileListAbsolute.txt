@@ -1,0 +1,17 @@
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\bin\Debug\Курсовая вп.exe.config
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\bin\Debug\Курсовая вп.exe
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\bin\Debug\Курсовая вп.pdb
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form1.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Properties.Resources.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая вп.csproj.GenerateResource.Cache
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая вп.csproj.CoreCompileInputs.cache
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая вп.exe
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая вп.pdb
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form2.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form3.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form5.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form4.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form6.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form7.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая_вп.Form8.resources
+C:\Users\111\source\repos\Курсовая вп\Курсовая вп\obj\Debug\Курсовая вп.csprojResolveAssemblyReference.cache

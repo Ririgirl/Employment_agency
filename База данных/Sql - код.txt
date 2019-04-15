@@ -1,0 +1,53 @@
+create database trudkont;
+ 
+use trudkont;
+
+create table company
+(num_comp int identity primary key,
+type_comp char (50) not null,
+name_comp varchar (50) not null,
+city_comp varchar (35) not null,
+tel_comp numeric(10) not null unique,
+email_comp varchar(50) not null unique,
+wsite_comp varchar(50))
+
+create table vacancy
+(num_vac int identity primary key,
+name_vac varchar (100) not null,
+dolzn_vac varchar(100),
+zp_vac varchar (15) not null,
+gender_vac varchar(3),
+obr_vac varchar(100) not null,
+or_vac varchar(50) not null,
+skills_vac varchar(200),
+num_comp int not null,
+constraint vacancy_company foreign key (num_comp)
+references company (num_comp))
+
+create table resume
+(num_res int identity primary key,
+fname_res varchar(70) not null,
+name_res varchar(70) not null,
+oname_res varchar(70) not null,
+spec_res varchar(100) not null,
+gr_res numeric(4) not null,
+gender_res varchar(1) not null check (gender_res in ('М', 'Ж')),
+city_res varchar(100) not null,
+email_res varchar(100) not null,
+zp_res tinyint,
+dolzn_res varchar(100),
+typezan_res varchar(50),
+graph_res varchar(50),
+sp_res varchar(50),
+child_res numeric(2),
+obr_res varchar(100) not null,
+or_res varchar(100) not null)
+
+insert into company (type_comp,name_comp,city_comp,tel_comp,email_comp,wsite_comp)
+values ('ОАО', 'Домоключ', 'Екатеринбург', 9173456263, 'domocluch@dkey.ru','dkey.ru')
+
+insert into vacancy (name_vac,dolzn_vac,zp_vac,gender_vac,obr_vac,or_vac,skills_vac,num_comp)
+values ('Экономист','экономический консультант',45000,'М/Ж','Высшее','Более года','Стрессоустойчивость',1)
+
+insert into resume (fname_res,name_res,oname_res,spec_res,gr_res,gender_res,city_res,email_res,zp_res,dolzn_res,typezan_res,graph_res,sp_res,child_res,obr_res,or_res)
+values ('Иванова', 'Анна', 'Геннадьевна', 'Стюардесса', 1989,'Ж', 'Тула', 'ivanovaag@gmail.com', 65000, 'Борт-проводник', 'Полный', 'Свободный', 'Не замужем/Холост', 0, 'Высшее', 'Более года')
